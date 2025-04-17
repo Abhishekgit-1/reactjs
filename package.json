@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "this is react js for learn",
+ 
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekgit-1/reactjs.git"
+  },
+  "keywords": [
+    "react",
+    "abhishek"
+  ],
+  "author": "abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishekgit-1/reactjs/issues"
+  },
+  "homepage": "https://github.com/Abhishekgit-1/reactjs#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": "last 2 version"
+}

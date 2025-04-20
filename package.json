@@ -2,7 +2,6 @@
   "name": "y",
   "version": "1.0.0",
   "description": "this is react js for learn",
- 
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -23,6 +22,7 @@
   },
   "homepage": "https://github.com/Abhishekgit-1/reactjs#readme",
   "dependencies": {
+    "bootstrap": "^5.3.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

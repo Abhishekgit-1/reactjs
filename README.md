@@ -18,3 +18,26 @@ HTTPS
 Diagnosis
 Tree shaking - Remove unused code
 Diffrent Dev and prod bundlers
+
+
+
+# Food ordering App
+//**
+// * 
+// Header
+        // Logo
+        // Nav Item
+// Body
+    // Search
+    // Restrurent Container
+    // RestrurentCart
+      // img
+      // Name of Restrurent, Rating , cuisine
+//Footer
+    // CopyRight
+    // Links
+    // Address
+    // Contact
+//
+//
+ //*/  

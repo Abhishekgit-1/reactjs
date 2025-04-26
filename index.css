@@ -199,26 +199,22 @@ nav ul li:hover {
 /* Styling for restaurant details section */
 .restaurant-container{
     display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: left; /* Center-align items */
-    padding: 20px; /* Add padding */
-    background-color: #f8f9fa; /* Light background */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    margin: 20px auto; /* Center the section with margin */
-    max-width: 800px; /* Limit the width */
+    flex-direction: row; /* Arrange items in a row */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between; /* Space out items */
+    gap: 20px; /* Add spacing between items */
 }
 
 .restaurant-details {
-    display: flex; /* Use flexbox for layout */
+    /*display: flex;  Use flexbox for layout */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center-align items */
     padding: 20px; /* Add padding */
     background-color: #fff; /* White background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    margin: 20px auto; /* Center the section with margin */
-    max-width: 800px; /* Limit the width */
+     /*margin: 20px auto; Center the section with margin */
+    max-width: 200px; /* Limit the width */
 }
 
 .restaurant-details h2 {
@@ -282,4 +278,8 @@ nav ul li:hover {
 }
 .restaurant-image{
     width : 200px;
+}
+.restaurant-card:hover {
+    transform: translateY(-5px); /* Move the cart slightly up */
+    transition: transform 0.3s ease; /* Smooth transition */
 }
